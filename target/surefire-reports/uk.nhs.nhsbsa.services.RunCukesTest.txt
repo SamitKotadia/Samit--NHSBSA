@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: uk.nhs.nhsbsa.services.RunCukesTest
+-------------------------------------------------------------------------------
+Tests run: 22, Failures: 0, Errors: 2, Skipped: 2, Time elapsed: 24.975 s <<< FAILURE! - in uk.nhs.nhsbsa.services.RunCukesTest
+And I select "Yes" for "you and your partner have a combined take-home pay of £935 or less in your last Universal Credit period"(Scenario: Positive)  Time elapsed: 0.053 s  <<< ERROR!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on WINDOWS (b2754e02adfec36a53ea3778b6385313)] -> xpath: //input[@id='radio-yes']] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-OQ9V1EJ', ip: '192.168.0.26', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.82, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\jigar\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56623}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56623/devtoo..., se:cdpVersion: 104.0.5112.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b2754e02adfec36a53ea3778b6385313
+
+Scenario: Positive  Time elapsed: 0.053 s  <<< ERROR!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on WINDOWS (b2754e02adfec36a53ea3778b6385313)] -> xpath: //input[@id='radio-yes']] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-OQ9V1EJ', ip: '192.168.0.26', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.82, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\jigar\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56623}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56623/devtoo..., se:cdpVersion: 104.0.5112.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b2754e02adfec36a53ea3778b6385313
+
