@@ -3,7 +3,7 @@
 ---
 **Checkforhelp project framework** is in Java language using java libraries; bonigarcia (for Webdriver Manager) its help to run cross browser testing and Cucumber (for BDD styled),  hamcrust (for assertion) along with Maven as a build tool.
 
-I used Selenium version “4.0.0” for framework and its included Positive and Negative scenario. firstly, I had gone through manual testing and then automation testing.
+I used Selenium version “4.0.0” for framework and its included Positive and Negative scenario. firstly, I had gone through manual testing and then automation testing. Equivalent class partitioning technique used for age group. Age group devided into two parts 1. under age 16 and 2. above age 16
 
 **Table of Contents Overview**
 
@@ -22,16 +22,20 @@ I used Selenium version “4.0.0” for framework and its included Positive and 
 
 
 
-**How to run tests**
-To run the tests I created RunCukesTest class i.e. located in "./src/test/java/RunCukesTest ="tags @Regression"" to execute tests
 
-**Generate Report**
+**How to run tests**
+>* For command line execution
 Open terminal and execute below commands
 1.	mvn clean install  
 2.	mvn test  // run test through command line
-3.	mvn cluecumber-report:reporting  // external report
 
-Please find the attached report - http://localhost:63342/CheckForHelp/target/generated-report/index.html?_ijt=9td6b6fp7b34rsrshs1gb8p4rr&_ij_reload=RELOAD_ON_SAVE
+**Generate Report**
+
+1.	mvn cluecumber-report:reporting 
+Report stored location - "target/generated-report/index.html"
+Execute the report - open "/index.html" file with chrome or firefox browser
+
+Please find the attached report link - http://localhost:63342/CheckForHelp/target/generated-report/index.html?_ijt=9td6b6fp7b34rsrshs1gb8p4rr&_ij_reload=RELOAD_ON_SAVE
 
 
  
