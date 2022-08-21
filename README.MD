@@ -10,15 +10,15 @@ I used Selenium version “4.0.0” for framework and its included Positive and 
 **1. How to setup**
 >Git client and Maven are required to setup to run test cases
 
-**2. How to run tests and generate reports Where to find Reports**
+**2. How to run tests and generate reports and Where to find Reports**
 
 >* Test will run according to feature files - which is stored under “./src/test/java/resources/GetHelp.feature” 
 
->* Cross browser testing will run through properties file  - which is stored under  “./src/test/java/resources/Configration.properties”
+>* Cross browser testing will run through properties file  - which is stored under  “./src/test/java/resources/Configration.properties” and need to change browser name ether "firefox" or "chrome"
 
 >* Outputs and reports (Json) will be produced under “./target/cucumber-reports” folder
 
->* Included maven.yml file for git action for CI/CD pipeline and for cross system testing. 
+>* For cross OS testing I included "maven.yml" file in framework for git action CI/CD pipeline. 
 
 
 
