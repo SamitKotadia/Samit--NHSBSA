@@ -5,10 +5,12 @@
 
 I used Selenium version “4.0.0” for framework and its included Positive and Negative scenario. firstly, I had gone through manual testing and then automation testing.
 
-###Table of Contents Overview
-###1. How to setup
+**Table of Contents Overview**
+
+**1. How to setup**
 >Git client and Maven are required to setup and run test cases
-###2. How to run tests and generate reports Where to find Reports
+
+**2. How to run tests and generate reports Where to find Reports**
 
 >* Test will run according to feature files - which is stored under “./src/test/java/resources/GetHelp.feature” 
 
@@ -20,10 +22,10 @@ I used Selenium version “4.0.0” for framework and its included Positive and 
 
 
 
-###How to run tests
+**How to run tests**
 To run the tests I created RunCukesTest class i.e. located in "./src/test/java/RunCukesTest ="tags @Regression"" to execute tests
 
-###Generate Report
+**Generate Report**
 Open terminal and execute below commands
 1.	mvn clean install  
 2.	mvn test  // run test through command line
