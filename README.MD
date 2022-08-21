@@ -31,5 +31,7 @@ Open terminal and execute below commands
 2.	mvn test  // run test through command line
 3.	mvn cluecumber-report:reporting  // external report
 
+Please find the attached report - http://localhost:63342/CheckForHelp/target/generated-report/index.html?_ijt=9td6b6fp7b34rsrshs1gb8p4rr&_ij_reload=RELOAD_ON_SAVE
+
 
  
