@@ -25,15 +25,20 @@ I used Selenium version “4.0.0” for framework and its included Positive and 
 
 **How to run tests**
 >* For command line execution
+
 Open terminal and execute below commands
 1.	mvn clean install  
 2.	mvn test  // run test through command line
 
-**Generate Report**
+**How to Generate Report**
 
-1.	mvn cluecumber-report:reporting 
-Report stored location - "target/generated-report/index.html"
-Execute the report - open "/index.html" file with chrome or firefox browser
+Open terminal and execute below commands
+
+1.	mvn cluecumber-report:reporting
+
+2.	Report stored location - "target/generated-report/index.html"
+
+3. Execute the report - open "/index.html" file with chrome or firefox browser
 
 Please find the attached report link - http://localhost:63342/CheckForHelp/target/generated-report/index.html?_ijt=9td6b6fp7b34rsrshs1gb8p4rr&_ij_reload=RELOAD_ON_SAVE
 
