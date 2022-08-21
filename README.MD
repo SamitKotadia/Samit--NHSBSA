@@ -8,7 +8,7 @@ I used Selenium version “4.0.0” for framework and its included Positive and 
 **Table of Contents Overview**
 
 **1. How to setup**
->Git client and Maven are required to setup and run test cases
+>Git client and Maven are required to setup to run test cases
 
 **2. How to run tests and generate reports Where to find Reports**
 
